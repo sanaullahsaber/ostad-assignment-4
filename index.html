@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Digital Clock</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <h1 class="heading">Digital Clock</h1>
+  <div id="clock"></div>
+
+  <ul>
+    <h1>Here is a brief description of how the JavaScript functionality is implemented:</h1>
+    <li>The JavaScript code uses the Date object to get the current time, including hours, minutes, and seconds.</li>
+    <li>It adds leading zeros to single-digit numbers to ensure consistent formatting.
+    </li>
+    <li>The formatted time is stored in a variable.
+    </li>
+    <li>The JavaScript code updates the text content of the element with the formatted time using
+      document.getElementById("clock").innerText.</li>
+    <li>The updateClock() function is called initially to display the current time when the page loads.</li>
+    <li>To ensure that the clock updates every second, the setInterval() method is used to call the updateClock()
+      function at a
+      1-second interval.</li>
+  </ul>
+  <script src="./script.js"></script>
+</body>
+
+</html>
